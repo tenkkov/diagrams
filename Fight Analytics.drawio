@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="MVP Architecture" id="5TG24tjM72LLLxEumnJg">
+    <mxGraphModel dx="1414" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kAT538U7CfpmLAv0vWRk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="Client (Web / Mobile UI)" vertex="1">
+          <mxGeometry height="60" width="200" x="300" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" value="API Layer (BFF)" vertex="1">
+          <mxGeometry height="60" width="200" x="300" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" value="Core Domain" vertex="1">
+          <mxGeometry height="60" width="200" x="300" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="fighters module" vertex="1">
+          <mxGeometry height="50" width="150" x="100" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="stats module" vertex="1">
+          <mxGeometry height="50" width="150" x="300" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="users module (optional)" vertex="1">
+          <mxGeometry height="50" width="180" x="500" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Data Layer" vertex="1">
+          <mxGeometry height="60" width="200" x="300" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-8" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;" value="Database" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="External APIs / Parsers" vertex="1">
+          <mxGeometry height="60" width="180" x="400" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-10" edge="1" parent="1" source="kAT538U7CfpmLAv0vWRk-1" target="kAT538U7CfpmLAv0vWRk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-11" edge="1" parent="1" source="kAT538U7CfpmLAv0vWRk-2" target="kAT538U7CfpmLAv0vWRk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-12" edge="1" parent="1" source="kAT538U7CfpmLAv0vWRk-3" target="kAT538U7CfpmLAv0vWRk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-13" edge="1" parent="1" source="kAT538U7CfpmLAv0vWRk-3" target="kAT538U7CfpmLAv0vWRk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-14" edge="1" parent="1" source="kAT538U7CfpmLAv0vWRk-3" target="kAT538U7CfpmLAv0vWRk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-15" edge="1" parent="1" source="kAT538U7CfpmLAv0vWRk-3" target="kAT538U7CfpmLAv0vWRk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-16" edge="1" parent="1" source="kAT538U7CfpmLAv0vWRk-7" target="kAT538U7CfpmLAv0vWRk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kAT538U7CfpmLAv0vWRk-17" edge="1" parent="1" source="kAT538U7CfpmLAv0vWRk-7" target="kAT538U7CfpmLAv0vWRk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
